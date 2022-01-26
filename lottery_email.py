@@ -44,7 +44,7 @@ def main():
             msg = EmailMessage()
             msg['Subject'] = f'יש {open_lotteries["OpenLotteriesCount"]} הגרלות חדשות '
             msg['From'] = EMAIL_ADDRESS
-            msg['To'] = "tzadik1911@gmail.com"
+            msg['To'] = "addyouremailhere"
             msg.add_alternative("""\
             <!DOCTYPE html>
             <html lang="en">
